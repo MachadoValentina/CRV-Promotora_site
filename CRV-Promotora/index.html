@@ -3,9 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>CRV Promotora | Correspondente Bancário</title>
-
 <meta
 name="description"
 content="CRV Promotora - Correspondente bancário em Cascavel - PR. Crédito consignado, empréstimos, 
@@ -28,7 +26,6 @@ content="CRV Promotora, correspondente bancário, crédito consignado, emprésti
 --branco: #ffffff;
 --borda: #e5ebf1;
 }
-
 * {
 margin: 0;
 padding: 0;
@@ -55,6 +52,7 @@ display: block;
 width: min(1120px, 92%);
 margin: auto;
 }
+
 /* NAVBAR */
 header {
 background: var(--branco);
@@ -113,6 +111,7 @@ color: var(--azul);
 background: var(--azul);
 color: white;
 }
+
 /* HERO */
 .hero {
 background: linear-gradient(
@@ -155,14 +154,12 @@ display: flex;
 gap: 14px;
 flex-wrap: wrap;
 }
-
 .hero-logo {
 background: white;
 padding: 35px;
 border-radius: 20px;
 box-shadow: 0 20px 50px rgba(20, 60, 100, 0.12);
 }
-
 .hero-logo img {
 width: 100%;
 max-width: 330px;
@@ -170,34 +167,28 @@ margin: auto;
 }
 
 /* SEÇÕES */
-
 section {
 padding: 85px 0;
 }
-
 .section-title {
 text-align: center;
 margin-bottom: 50px;
 }
-
 .section-title h2 {
 font-size: 36px;
 color: var(--azul-escuro);
 margin-bottom: 10px;
 }
-
 .section-title p {
 color: var(--cinza);
 }
 
 /* SERVIÇOS */
-
 .services {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 25px;
 }
-
 .card {
 background: white;
 border: 1px solid var(--borda);
@@ -205,12 +196,10 @@ border-radius: 16px;
 padding: 30px;
 transition: 0.25s;
 }
-
 .card:hover {
 transform: translateY(-5px);
 box-shadow: 0 15px 35px rgba(20, 60, 100, 0.10);
 }
-
 .icon {
 width: 50px;
 height: 50px;
@@ -223,40 +212,33 @@ justify-content: center;
 font-size: 23px;
 margin-bottom: 20px;
 }
-
 .card h3 {
 margin-bottom: 10px;
 color: var(--azul-escuro);
 }
-
 .card p {
 color: var(--cinza);
 }
 
 /* SOBRE */
-
 .about {
 background: white;
 }
-
 .about-content {
 display: grid;
 grid-template-columns: 1fr 1fr;
 gap: 60px;
 align-items: center;
 }
-
 .about h2 {
 font-size: 38px;
 color: var(--azul-escuro);
 margin-bottom: 20px;
 }
-
 .about p {
 color: var(--cinza);
 margin-bottom: 15px;
 }
-
 .highlight {
 border-left: 5px solid var(--verde);
 background: #f2faf7;
@@ -264,13 +246,11 @@ padding: 22px;
 border-radius: 8px;
 margin-top: 25px;
 }
-
 .highlight strong {
 color: var(--azul-escuro);
 }
 
 /* CONTATO */
-
 .contact-box {
 background: linear-gradient(
 135deg,
@@ -285,41 +265,33 @@ grid-template-columns: 1fr 1fr;
 gap: 50px;
 align-items: center;
 }
-
 .contact-box h2 {
 font-size: 36px;
 margin-bottom: 15px;
-}
-
-.contact-box p {
+ }
 opacity: 0.9;
 margin-bottom: 10px;
 }
-
 .contact-info {
 display: grid;
 gap: 15px;
 }
-
 .contact-item {
 background: rgba(255,255,255,0.08);
 padding: 15px;
 border-radius: 10px;
 }
-
 .contact-item strong {
 display: block;
 margin-bottom: 3px;
 }
 
 /* FOOTER */
-
 footer {
 background: #071f3d;
 color: white;
 padding: 35px 0;
 }
-
 .footer-content {
 display: flex;
 justify-content: space-between;
@@ -327,98 +299,76 @@ align-items: center;
 gap: 20px;
 flex-wrap: wrap;
 }
-
 .footer-links {
 display: flex;
 gap: 20px;
 color: #d9e5f1;
 }
-
 .footer-links a:hover {
 color: white;
 }
-
 .copyright {
 color: #b8c7d6;
 font-size: 14px;
 }
 
-/* RESPONSIVO */
-
+/* RESPONSIVIDADE */
 @media (max-width: 850px) {
-
 .menu {
 display: none;
 }
-
 .hero {
 padding: 65px 0;
 }
-
 .hero-content {
 grid-template-columns: 1fr;
 gap: 45px;
 }
-
 .hero-logo {
 max-width: 500px;
 margin: auto;
 }
-
 .services {
 grid-template-columns: 1fr;
 }
-
 .about-content {
 grid-template-columns: 1fr;
 gap: 30px;
 }
-
 .contact-box {
 grid-template-columns: 1fr;
 padding: 35px;
 }
 }
-
 @media (max-width: 500px) {
-
 .navbar {
 min-height: 68px;
 }
-
 .logo {
 width: 120px;
 }
-
 .hero h1 {
 font-size: 38px;
 }
-
 .hero p {
 font-size: 16px;
 }
-
 section {
 padding: 60px 0;
 }
-
 .section-title h2 {
 font-size: 30px;
 }
-
 .contact-box h2 {
 font-size: 29px;
 }
-
 .btn {
 width: 100%;
 }
-
 .footer-content {
 flex-direction: column;
 align-items: flex-start;
 }
-
 .footer-links {
 flex-direction: column;
 gap: 8px;
@@ -426,23 +376,18 @@ gap: 8px;
 }
 </style>
 </head>
-
 <body>
 
 <!-- MENU -->
-
 <header>
 <div class="container navbar">
-
 <a href="#inicio">
 <img src="logo.jpeg" alt="CRV Promotora" class="logo">
 </a>
-
 <nav class="menu">
 <a href="#empresa">A empresa</a>
 <a href="#servicos">Serviços</a>
 <a href="#contato">Contato</a>
-
 <a
 class="btn btn-primary"
 href="https://wa.me/5545998033300?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20CRV%20Promotora."
@@ -452,37 +397,26 @@ rel="noopener noreferrer"
 Fale conosco
 </a>
 </nav>
-
 </div>
 </header>
 
-
 <!-- INÍCIO -->
-
 <main id="inicio">
-
 <section class="hero">
-
 <div class="container hero-content">
-
 <div>
-
 <span class="tag">
 Correspondente bancário
 </span>
-
 <h1>
 Informação e atendimento para suas necessidades financeiras.
 </h1>
-
 <p>
 A CRV Promotora conecta clientes às instituições
 financeiras parceiras, oferecendo atendimento
 personalizado e orientação durante todo o processo.
 </p>
-
 <div class="hero-buttons">
-
 <a
 class="btn btn-primary"
 href="https://wa.me/5545998033300?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20CRV%20Promotora."
@@ -491,134 +425,90 @@ rel="noopener noreferrer"
 >
 Falar pelo WhatsApp
 </a>
-
 <a
 class="btn btn-outline"
 href="#servicos"
 >
 Conheça nossos serviços
 </a>
-
 </div>
-
 </div>
-
 <div class="hero-logo">
-
 <img
 src="logo.jpeg"
 alt="Logo CRV Promotora"
 >
-
 </div>
-
 </div>
-
 </section>
 
-
 <!-- SERVIÇOS -->
-
 <section id="servicos">
-
 <div class="container">
-
 <div class="section-title">
-
 <h2>
 Nossos serviços
 </h2>
-
 <p>
 Soluções financeiras com atendimento próximo e personalizado.
 </p>
-
 </div>
-
-
 <div class="services">
-
 <div class="card">
-
 <div class="icon">
 $
 </div>
-
 <h3>
 Crédito consignado
 </h3>
-
 <p>
 Simulações e encaminhamento de propostas de
 crédito consignado junto às instituições
 financeiras parceiras.
 </p>
-
 </div>
-
-
 <div class="card">
-
 <div class="icon">
 %
 </div>
-
 <h3>
-Empréstimos
+Documentos Bancários
 </h3>
-
 <p>
-Orientação e apresentação de opções de
-empréstimos disponíveis de acordo com as
-condições das instituições parceiras.
+Orientação e suporte na organização,
+conferência e encaminhamento de documentos
+necessáriospara os serviços bancários.
 </p>
-
 </div>
-
-
 <div class="card">
-
 <div class="icon">
 +
 </div>
-
 <h3>
 Cartões de benefícios
 </h3>
-
 <p>
 Apresentação e encaminhamento de propostas
 relacionadas a cartões e benefícios financeiros.
 </p>
-
 </div>
-
 </div>
-
 </div>
-
 </section>
 
-
 <!-- EMPRESA -->
-
 <section id="empresa" class="about">
-
 <div class="container about-content">
-
 <div>
-
 <h2>
 Sobre a CRV Promotora
 </h2>
-
 <p>
 A CRV Promotora atua como correspondente bancário
 na oferta e intermediação de produtos e serviços
 financeiros, conectando clientes às instituições
 financeiras parceiras.
 </p>
-
 <p>
 Atuamos principalmente com crédito consignado,
 empréstimos, cartões de benefícios e outras
@@ -627,7 +517,6 @@ apresentação de condições, encaminhamento de
 propostas e acompanhamento das operações até
 sua conclusão.
 </p>
-
 <p>
 Nosso objetivo é facilitar o acesso dos clientes
 às opções disponíveis junto às instituições
@@ -635,50 +524,33 @@ parceiras, com atendimento personalizado,
 transparência nas informações e orientação
 durante todo o processo.
 </p>
-
 </div>
-
-
 <div class="highlight">
-
 <strong>
 CRV Promotora
 </strong>
-
 <p>
 Seu acesso às melhores soluções financeiras,
 com atendimento próximo e personalizado.
 </p>
-
 </div>
-
 </div>
-
 </section>
 
-
 <!-- CONTATO -->
-
 <section id="contato">
-
 <div class="container">
-
 <div class="contact-box">
-
 <div>
-
 <h2>
 Entre em contato
 </h2>
-
 <p>
 Fale com a CRV Promotora pelo WhatsApp
 para tirar dúvidas ou solicitar informações
 sobre nossos serviços.
-</p>
-
+</p
 <br>
-
 <a
 class="btn btn-primary"
 href="https://wa.me/5545998033300?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20CRV%20Promotora."
@@ -687,98 +559,57 @@ rel="noopener noreferrer"
 >
 Falar pelo WhatsApp
 </a>
-
 </div>
-
-
 <div class="contact-info">
-
 <div class="contact-item">
-
 <strong>
 WhatsApp
 </strong>
-
 (45) 99803-3300
-
 </div>
-
-
 <div class="contact-item">
-
 <strong>
 Endereço
 </strong>
-
 Rua 7 de Setembro, 4060
 <br>
 Cascavel - PR
-
 </div>
-
-
 <div class="contact-item">
-
 <strong>
 CNPJ
 </strong>
-
 41.362.555/0001-60
-
 </div>
-
-
 <div class="contact-item">
-
 <strong>
 Razão social
 </strong>
-
 41.362.555 Antonio Rafael Machado
-
 </div>
-
 </div>
-
 </div>
-
 </div>
-
 </section>
-
 </main>
 
-
 <!-- RODAPÉ -->
-
 <footer>
-
 <div class="container footer-content">
-
 <div>
-
 <div class="copyright">
 © 2026 CRV Promotora. Todos os direitos reservados.
 </div>
-
 </div>
-
-
 <div class="footer-links">
-
 <a href="politica-de-privacidade.html">
 Política de Privacidade
 </a>
-
 <a href="termos-de-uso.html">
 Termos de Uso
 </a>
-
 </div>
-
 </div>
-
 </footer>
-
 </body>
 </html>
